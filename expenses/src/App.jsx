@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import TransactionList from './components/TransactionList'
 import IncExpContainer from './components/IncExpContainer'
-import NewTransactionForm from './components/NewTranscationForm'
+import NewTransactionForm from './components/NewTrasactionForm'
 const App = (props) => {
   const [transactions, setTransactions] = useState([]);
   useEffect(() => {
